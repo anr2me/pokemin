@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pokemin/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/pokemin/static/js/main.4b6e08d7.chunk.js",
+    "main.js.map": "/pokemin/static/js/main.4b6e08d7.chunk.js.map",
+    "runtime-main.js": "/pokemin/static/js/runtime-main.e37814d5.js",
+    "runtime-main.js.map": "/pokemin/static/js/runtime-main.e37814d5.js.map",
+    "static/css/2.20738fc2.chunk.css": "/pokemin/static/css/2.20738fc2.chunk.css",
+    "static/js/2.3050ed47.chunk.js": "/pokemin/static/js/2.3050ed47.chunk.js",
+    "static/js/2.3050ed47.chunk.js.map": "/pokemin/static/js/2.3050ed47.chunk.js.map",
+    "index.html": "/pokemin/index.html",
+    "precache-manifest.1cd9fd03eb88a19589642c663b98c719.js": "/pokemin/precache-manifest.1cd9fd03eb88a19589642c663b98c719.js",
+    "service-worker.js": "/pokemin/service-worker.js",
+    "static/css/2.20738fc2.chunk.css.map": "/pokemin/static/css/2.20738fc2.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/pokemin/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.3050ed47.chunk.js.LICENSE": "/pokemin/static/js/2.3050ed47.chunk.js.LICENSE",
+    "static/media/semantic.min.css": "/pokemin/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e37814d5.js",
+    "static/css/2.20738fc2.chunk.css",
+    "static/js/2.3050ed47.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.4b6e08d7.chunk.js"
+  ]
+}
