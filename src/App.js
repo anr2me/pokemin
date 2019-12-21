@@ -57,6 +57,17 @@ const FooterSegment = styled(Segment)`
 }
 `;
 
+const DefaultComp = () => {
+
+  return (
+    <Grid centered columns={2}>
+      <Grid.Column>
+        <Image fluid centered verticalAlign='middle' src='https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png' />
+      </Grid.Column>
+    </Grid>
+  )
+}
+
 class App extends Component {
 
   constructor(props) {
@@ -79,16 +90,11 @@ class App extends Component {
           <MainContainer className='App'>
             <Segment attached vertical>
               <Switch>
-                <Route exact path='/'>
-                  <Grid centered columns={2}>
-                    <Grid.Column>
-                      <Image fluid centered verticalAlign='middle' src='https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png' />
-                    </Grid.Column>
-                  </Grid>
-                </Route>
                 <Route path='/list/:page?' component={PokeList} />
                 <Route path='/mylist/:page?' component={MyPokeList} />
                 <Route path='/detail/:id/:uid?' component={PokeDetail} />
+                <Route exact path='/' component={DefaultComp} />
+                <Route component={DefaultComp} />
               </Switch>
             </Segment>
               <StyledMenu tabular compact attached="bottom">
