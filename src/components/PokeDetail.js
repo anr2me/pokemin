@@ -2,19 +2,49 @@ import React, { Component, createRef } from 'react';
 import { compose, bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-import { Header, Rail, Sticky, Grid, Ref, Segment, Button, Image, Label, List, Card, Modal, Input, Dimmer, Loader } from 'semantic-ui-react';
+import { Header, Rail, Sticky, Grid, Ref, Segment, Button, Image, Label, List, Card, Modal, Input, Dimmer, Loader, Container } from 'semantic-ui-react';
 import styled from 'styled-components';
 import { doFetchDetail } from './../services/httpService';
 import { addItem, updateItem } from './../actions/mainActions';
 import { getNeedDetailFetch, getFetchDetailPending, getFetchDetailError, getCurrentItem } from './../reducers/mainReducers';
 
 const StyledRail = styled(Rail)`
-&&& {
+&&&& {
   left: 0;
   right: auto;
   padding: 0 0 0 0;
   margin: auto; 
   width: 100%;
+}
+`;
+
+const StyledSticky = styled(Sticky)`
+&&&& {
+
+  &.fixed-container {
+
+    & .fixed {
+      margin: auto;
+      position: fixed;
+      width: 100% !important;
+      left: 0;
+      background: #545454 linear-gradient(transparent,rgba(0,0,0,.05));
+    }
+  }
+}
+`;
+
+const StickyContainer = styled(Container)`
+&&&& {
+  max-width: 600px !important;
+  margin: auto !important;
+  border: none;
+  border-radius: 0;
+
+  & .header {
+    border: none;
+    border-radius: 0;
+  }
 }
 `;
 
@@ -241,11 +271,13 @@ class PokeDetail extends Component {
             </StyledSegment>
             <HeaderSegment vertical inverted>
               <StyledRail position='left' attached>
-                <Sticky context={this.contextRef}>
-                  <Header as="h2" textAlign='center' inverted block>
-                    <RoutedBackButton />Pokemon Detail
-                  </Header>           
-                </Sticky>
+                <StyledSticky context={this.contextRef}>
+                  <StickyContainer>
+                    <Header as="h2" textAlign='center' inverted block>
+                      <RoutedBackButton />Pokemon Detail
+                    </Header>
+                  </StickyContainer>
+                </StyledSticky>
               </StyledRail>
             </HeaderSegment>
 
