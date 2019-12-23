@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1228989008abf221ee509f530d216b98",
+    "revision": "880521ad810cb7b30acff842de839887",
     "url": "/pokemin/index.html"
   },
   {
-    "revision": "bda9f50db1f9cb2f52f8",
+    "revision": "85d094f51713dfd93561",
     "url": "/pokemin/static/css/2.20738fc2.chunk.css"
   },
   {
-    "revision": "839c19cbe0ed894aa87f",
+    "revision": "80a98074459e7c0baf64",
     "url": "/pokemin/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "bda9f50db1f9cb2f52f8",
-    "url": "/pokemin/static/js/2.3050ed47.chunk.js"
+    "revision": "85d094f51713dfd93561",
+    "url": "/pokemin/static/js/2.aa728717.chunk.js"
   },
   {
-    "revision": "69c3a74a68966e6fb58e4430840982c6",
-    "url": "/pokemin/static/js/2.3050ed47.chunk.js.LICENSE"
+    "revision": "80a98074459e7c0baf64",
+    "url": "/pokemin/static/js/main.496b9915.chunk.js"
   },
   {
-    "revision": "839c19cbe0ed894aa87f",
-    "url": "/pokemin/static/js/main.1c05b64c.chunk.js"
-  },
-  {
-    "revision": "3bdc3cc2f75c0d951b1e",
-    "url": "/pokemin/static/js/runtime-main.e37814d5.js"
+    "revision": "1e602bd34dc91726d51b",
+    "url": "/pokemin/static/js/runtime~main.8d087851.js"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",

@@ -1,26 +1,18 @@
 {
   "files": {
     "main.css": "/pokemin/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/pokemin/static/js/main.1c05b64c.chunk.js",
-    "main.js.map": "/pokemin/static/js/main.1c05b64c.chunk.js.map",
-    "runtime-main.js": "/pokemin/static/js/runtime-main.e37814d5.js",
-    "runtime-main.js.map": "/pokemin/static/js/runtime-main.e37814d5.js.map",
+    "main.js": "/pokemin/static/js/main.496b9915.chunk.js",
+    "main.js.map": "/pokemin/static/js/main.496b9915.chunk.js.map",
+    "runtime~main.js": "/pokemin/static/js/runtime~main.8d087851.js",
+    "runtime~main.js.map": "/pokemin/static/js/runtime~main.8d087851.js.map",
     "static/css/2.20738fc2.chunk.css": "/pokemin/static/css/2.20738fc2.chunk.css",
-    "static/js/2.3050ed47.chunk.js": "/pokemin/static/js/2.3050ed47.chunk.js",
-    "static/js/2.3050ed47.chunk.js.map": "/pokemin/static/js/2.3050ed47.chunk.js.map",
+    "static/js/2.aa728717.chunk.js": "/pokemin/static/js/2.aa728717.chunk.js",
+    "static/js/2.aa728717.chunk.js.map": "/pokemin/static/js/2.aa728717.chunk.js.map",
     "index.html": "/pokemin/index.html",
-    "precache-manifest.0ce394e163f0ba1cd1d0963622dfca4a.js": "/pokemin/precache-manifest.0ce394e163f0ba1cd1d0963622dfca4a.js",
+    "precache-manifest.12269861bd9823da3fc0a652f9409e84.js": "/pokemin/precache-manifest.12269861bd9823da3fc0a652f9409e84.js",
     "service-worker.js": "/pokemin/service-worker.js",
     "static/css/2.20738fc2.chunk.css.map": "/pokemin/static/css/2.20738fc2.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/pokemin/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3050ed47.chunk.js.LICENSE": "/pokemin/static/js/2.3050ed47.chunk.js.LICENSE",
     "static/media/semantic.min.css": "/pokemin/static/media/outline-icons.ef60a4f6.woff"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.e37814d5.js",
-    "static/css/2.20738fc2.chunk.css",
-    "static/js/2.3050ed47.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.1c05b64c.chunk.js"
-  ]
+  }
 }
