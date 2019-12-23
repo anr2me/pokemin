@@ -20,16 +20,17 @@ const GlobalStyle = createGlobalStyle`
     color: #212121;
     transition: all 0.5s ease;
     transition-property: color,background-color,border,font-size;
+    text-align: center;
   }
 `;
 
 const MainContainer = styled(Container)`
 &&& {
   padding-top: 1em;
-  width: 100%;
+  width: 100% !important;
   max-width: 600px !important;
   text-align:center;
-  margin:auto;
+  margin:auto !important;
 }
 `;
 
